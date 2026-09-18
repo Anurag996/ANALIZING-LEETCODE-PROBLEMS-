@@ -1,7 +1,6 @@
 class Solution {
     public int minimumSum(int[][] grid) {
-  
-   return (Find_the_Minimum_Area_to_Cover(grid));
+        return (Find_the_Minimum_Area_to_Cover(grid));
 
     }
         
@@ -78,6 +77,5 @@ class Solution {
 		int b = maxc - minc + 1;
 		return l * b;
 
-	}
-
+    }
 }
