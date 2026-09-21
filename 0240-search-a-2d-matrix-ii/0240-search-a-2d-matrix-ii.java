@@ -2,10 +2,13 @@ class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         
 
-    int row=0;
-    int col= matrix[0].length-1;
 
-    while(row < matrix.length && col>=0){
+///   STAIRCASE ALGORITHM USE HUAH HAI 
+
+    int row=0;
+    int col= matrix[0].length-1;    /// YAHAN SE START KRO 
+
+    while(row < matrix.length && col>=0){  /// YE LINE IMP HAI 
         if(matrix[row][col]==target){
             return true;
         }else if(matrix[row][col]>target){
