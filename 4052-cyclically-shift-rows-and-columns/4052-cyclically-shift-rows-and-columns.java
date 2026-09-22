@@ -1,8 +1,8 @@
 class Solution {
     public int[][] cyclicShift(int n, int[][] grid, int[] rowShift, int[] colShift) {
-        
 
-         // row shift 
+
+   // row shift 
   //int n = grid.length;
         for(int i=0;i<n;i++){
             int k= rowShift[i]%n;
@@ -36,7 +36,5 @@ class Solution {
       }
  
 return grid ;
-
-
     }
 }
