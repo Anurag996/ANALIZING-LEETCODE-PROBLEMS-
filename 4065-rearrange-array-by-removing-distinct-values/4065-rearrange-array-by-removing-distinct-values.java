@@ -1,6 +1,7 @@
 class Solution {
     public int[] rearrangeArray(int[] nums) {
-         int[] freq= new int[101];
+
+        int[] freq= new int[101];
 
         for(int x:nums){
             freq[x]++;
