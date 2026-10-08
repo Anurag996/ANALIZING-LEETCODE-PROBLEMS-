@@ -1,6 +1,5 @@
 class Solution {
     public int[] concatWithReverse(int[] nums) {
-        
         int n = nums.length;
         int []ans = new int[2*n];
         int i = 0;
