@@ -1,7 +1,5 @@
-
 class Solution {
     public boolean digitCount(String num) {
-
         int[] arr = new int[10];
 
         // Har digit ki frequency count karenge
