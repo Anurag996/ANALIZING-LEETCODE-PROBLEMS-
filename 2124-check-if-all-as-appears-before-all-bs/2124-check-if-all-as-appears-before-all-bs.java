@@ -1,6 +1,5 @@
 class Solution {
     public boolean checkString(String s) {
-
         int a = -1;
         int b = -1;
 
