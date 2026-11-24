@@ -10,7 +10,7 @@ class Solution {
                 return true;
             }
 
-            while(!st.empty() && st.peek() < nums[i]) {
+            while(!st.isEmpty() && st.peek() < nums[i]) {
                 second = st.pop();
             }
 
